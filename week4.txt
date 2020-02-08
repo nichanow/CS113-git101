@@ -1,0 +1,16 @@
+ฟังก์ชัน printf, scanf, getchar อยู่ใน standard library function
+ฟังก์ชัน sqrt, exp, log อยู่ใน math library function
+โค้ดไบนารีของ standard C library function เก็บอยู่ใน /usr/lib/libc.a
+โค้ดไบนารีของ math library function เก็บอยู่ใน /usr/lib/libm.a
+หากต้องการใช้ฟังก์ชันใน math library ต้อง #include <math.h> ก่อน
+(ฟังก์ชันใน math library ex.sin, cos ,tan ,sqrt, log, pow, ceil)
+
+Return value
+    ฟังก์ชันจะมีการส่งค่ากลับ
+    ใช้ void เพื่อบอกว่าฟังก์ชันนี้ไม่มีการส่งค่าใดๆกลับไปที่ผู้เรียก
+    หากเป็นฟังก์ชันที่มีการส่งค่ากลับ ใช้คีย์เวิร์ด return เพื่อส่งข้อมูลกลับไป
+
+Recursion
+    ฟังก์ชันที่สามรถเรียกใช้ตนเองได้เรียกว่า Recursion
+    สามารถอยู่ในรูป direct และ indirect
+    เมื่อฟังก์นมีการเรียกใช้ตนเอง โปรแกรมจะสำเนาค่าตัวแปรเพิ่มอีกชุด โดยเป็นอิสระจากการถูกเรียกครั้งก่อนหน้า
