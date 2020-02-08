@@ -1,0 +1,41 @@
+สามารถเปลี่ยน expression เป็น statement ได้โดยการใส่ ; ไว้ตอนท้าย
+1.if-else
+    if (expression)
+        statement1
+    else
+        statement2
+
+2.else-if (ถ้า expression ไหนเป็นจริง statement ในบล็อคนั้นจะทำงาน)
+    if (expression1)
+        statement1
+    else if (expression2)
+        statement2
+    else if (expression3)
+        statement3
+    else
+        statement4
+    
+3.switch
+    switch (expression){
+        case const-expr:
+            statements
+        case const-expr:
+            statements
+        default: 
+            statements
+    }
+
+4.loop while,for
+รูปแบบ while
+    while (expression)
+        statement
+
+รูปแบบ for
+for (expr1 ; expr2 ; expr3)
+    statement
+
+5.loop do-while
+do{
+    statement
+} while (expression);
+    
