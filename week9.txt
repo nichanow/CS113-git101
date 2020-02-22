@@ -1,0 +1,14 @@
+stucture อาจมีข้อมูลตัวแปรที่แตกต่างกันก็ได้ เป็นชุดของตัวแปรภายใต้กาใช้ชื่อเดียวกัน
+สมาชิกใน stucture เดียวกันต้องมีตัวแปรที่แตกต่างกัน
+
+การจัดเก็บใน memory
+    stucture ไม่สามารถใช้ operator == และ != ได้  
+    มาตราฐานในการเก็บคำ 1 คำ ใน memory มักจะใช้ 2 bytes หรือ 4 bytes
+
+การเข้าถึง stucture members
+    stucture member operator(.) เรียกว่า dot poerator
+    stucture pointer operator(->) เรียกว่า arrow operator
+
+typedef
+    เป็นวิธีการสร้างคำที่พ้องความหมายสำหรับ data type ที่กำหนดไว้ก่อนหน้านี้
+    ชื่อของ stucture types มักกำหนดด้วย typedef เพื่อสร้างชื่อตัวแปรที่สั้นขึ้น
